@@ -23,7 +23,7 @@ def create_app():
 
     # Ensure the upload folder exists
     if not os.path.exists(app.config['UPLOAD_FOLDER']):
-        os.makedirs(app.config['UPLOAD_FOLDER'])
+        os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
     # Initialize and attach the RAG service to the app instance
     # This is better than a global variable. The service and its chain
