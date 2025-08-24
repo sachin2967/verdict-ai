@@ -15,6 +15,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Now copy the rest of your application's code into the container
 COPY . .
 
+# ADD THESE TWO LINES
+COPY ./data ./data
+COPY ./nyaysaathi_faiss_index ./nyaysaathi_faiss_index
+
 # Install Gunicorn, a production-ready server for your Flask app
 RUN pip install gunicorn
 
