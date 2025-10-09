@@ -1,4 +1,4 @@
-# NyaySaathi AI — Local Flask RAG Demo
+# Verdict AI — Local Flask RAG Demo
 
 This project is a local demonstration of a Retrieval-Augmented Generation (RAG) pipeline using Flask, LangChain, Google Gemini, and FAISS for answering questions about Indian law based on provided PDF documents.
 
