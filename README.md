@@ -7,6 +7,10 @@ Gemini using LangChain.
 > **Not legal advice.** This is a learning project. Answers can be wrong or incomplete and
 > have not been reviewed by a lawyer. Consult a qualified professional for legal matters.
 
+![Verdict AI chat screen before a question is submitted](docs/images/chat.png)
+
+*Local Flask chat interface. Live answers require a Google API key.*
+
 ## Features
 
 - **Chat (`/chat`, `POST /ask`):** ask a question and get an answer grounded in retrieved passages.
